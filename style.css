@@ -1,0 +1,122 @@
+body {
+    margin: auto;
+    font-family: 'Shantell Sans', cursive;
+    background-color: rgb(50, 58, 58);
+  }
+header {    
+  padding: 20px;
+  color: white;
+  text-align: center;
+  background-image: url('assets/paws2.png');
+  background-position: center;
+  border-bottom: 2px solid whitesmoke;
+  }
+  
+h1 {
+  font-size: 55px;
+  color: white;
+  text-transform: uppercase;
+  text-shadow: 1px 5px 5px rgb(241, 186, 186);
+  margin-bottom: 50px;
+}
+
+.headertext {
+  font-weight: 600;
+}
+
+#text1 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+#text2{
+  font-size: 20px;
+  margin: 40px 100px 10px 100px;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+  text-align: center;
+}
+
+.card {
+  display: inline-block;
+  margin: 10px;
+  box-shadow: -2px 4px 5px white;
+  border-radius: 10px;
+  vertical-align: top;
+  max-height: 100%;
+}
+
+.card img {
+  display: block;
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card details {
+  font-size: 16px;
+  width: 300px;
+  height: auto;
+  display: inline-block;
+  border-radius: 0 0 10px 10px;
+  background-color: #222;
+  color: lightgrey;
+}
+
+.card details summary {
+  font-size: 20px;
+  padding: 10px;
+}
+
+.card details p {
+  padding: 0 10px;
+}
+
+.card details blockquote {
+  color: lightgray;
+  font-weight: bold;
+}
+
+.card details blockquote q{
+  color: lightgray;
+  font-weight: 100;
+  font-style: italic;
+}
+
+#flag{
+  display: inline-flex;
+  height: 40px;
+}
+
+@media (max-width: 768px) {
+  header {
+    margin: 15px;
+    padding-bottom: 20px;
+  }
+  h1 {
+    font-size: 40px;
+  }
+  #text2{
+    margin: 40px 40px 10px 40px;
+  }
+  .card {
+    display: block;
+    margin: 20px 10px
+  }
+  .card img {
+    width: 100%;
+  }
+  .card details {
+    width: 100%;
+  }
+  .card details summary {
+    font-size: 16px; 
+  }
+  .card details p {
+    font-size: 14px;
+  }
+}
+
